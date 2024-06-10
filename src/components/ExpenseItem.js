@@ -46,7 +46,7 @@ const ExpenseItem = (props) => {
       <img src="https://pngimg.com/uploads/plus/plus_PNG121.png" alt="-" width="40" height="40" onClick={event=> increaseAllocation(props.name)}></img>
       </td>
       <td align="center">
-      <img src="https://pngimg.com/uploads/minus/minus_PNG60.png" alt="-" width="40" height="40" onClick={event=> decreaseAllocation(props.dname)}></img>
+      <img src="https://pngimg.com/uploads/minus/minus_PNG60.png" alt="-" width="40" height="40" onClick={event=> decreaseAllocation(props.name)}></img>
       </td>
       <td align="center">
         <TiDelete size="3em" onClick={handleDeleteExpense}></TiDelete>
